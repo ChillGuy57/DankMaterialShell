@@ -209,6 +209,7 @@ var SPEC = {
     dankLauncherV2BorderEnabled: { def: false },
     dankLauncherV2BorderThickness: { def: 2 },
     dankLauncherV2BorderColor: { def: "primary" },
+    dankLauncherV2FocusedBorderEnabled: { def: true },
     dankLauncherV2ShowFooter: { def: true },
     dankLauncherV2UnloadOnClose: { def: false },
     dankLauncherV2IncludeFilesInAll: { def: false },

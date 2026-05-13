@@ -20,7 +20,7 @@ Rectangle {
 
     radius: Theme.cornerRadius
     color: isSelected ? Theme.primaryPressed : isHovered ? Theme.primaryPressed : "transparent"
-    border.width: isSelected ? 2 : 0
+    border.width: (isSelected && SettingsData.dankLauncherV2FocusedBorderEnabled) ? 2 : 0
     border.color: Theme.primary
 
     readonly property string toplevelId: item?.data?.toplevelId ?? ""
