@@ -443,6 +443,7 @@ Singleton {
     property bool dankLauncherV2BorderEnabled: false
     property int dankLauncherV2BorderThickness: 2
     property string dankLauncherV2BorderColor: "primary"
+    property bool dankLauncherV2FocusedBorderEnabled: true
     property bool dankLauncherV2ShowFooter: true
     property bool dankLauncherV2UnloadOnClose: false
     property bool dankLauncherV2IncludeFilesInAll: false

@@ -2049,6 +2049,29 @@
     "description": "Show launcher overlay when typing in Niri overview. Disable to use another launcher."
   },
   {
+    "section": "dankLauncherV2FocusedBorderEnabled",
+    "label": "Focused Border",
+    "tabIndex": 9,
+    "category": "Launcher",
+    "keywords": [
+      "around",
+      "border",
+      "drawer",
+      "focus",
+      "focused",
+      "highlight",
+      "item",
+      "launcher",
+      "menu",
+      "selection",
+      "show",
+      "start",
+      "tile",
+      "view"
+    ],
+    "description": "Show a border around the focused item in tile view."
+  },
+  {
     "section": "appLauncherGridColumns",
     "label": "Grid Columns",
     "tabIndex": 9,
