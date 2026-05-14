@@ -459,12 +459,13 @@ FocusScope {
                     width: parent.width - (pluginBadge.visible ? pluginBadge.width + Theme.spacingS : 0)
                     cornerRadius: Theme.cornerRadius
                     backgroundColor: Theme.withAlpha(Theme.surfaceContainerHigh, Theme.popupTransparency)
-                    normalBorderColor: Theme.outlineMedium
-                    focusedBorderColor: Theme.primary
+                    normalBorderColor: SettingsData.dankLauncherV2FocusedBorderEnabled ? Theme.outlineMedium : "transparent"
+                    focusedBorderColor: SettingsData.dankLauncherV2FocusedBorderEnabled ? Theme.primary : "transparent"
+                    focusedBorderWidth: SettingsData.dankLauncherV2FocusedBorderEnabled ? 2 : 1
                     leftIconName: controller.activePluginId ? "extension" : controller.searchQuery.startsWith("/") ? "folder" : "search"
                     leftIconSize: Theme.iconSize
                     leftIconColor: Theme.surfaceVariantText
-                    leftIconFocusedColor: Theme.primary
+                    leftIconFocusedColor: SettingsData.dankLauncherV2FocusedBorderEnabled ? Theme.primary : Theme.surfaceVariantText
                     showClearButton: true
                     textColor: Theme.surfaceText
                     font.pixelSize: Theme.fontSizeLarge

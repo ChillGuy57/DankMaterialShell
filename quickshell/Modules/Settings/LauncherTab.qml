@@ -490,9 +490,9 @@ Item {
 
                 SettingsToggleRow {
                     settingKey: "dankLauncherV2FocusedBorderEnabled"
-                    tags: ["launcher", "focus", "focused", "border", "selection", "highlight"]
+                    tags: ["launcher", "focus", "focused", "border", "outline", "search", "selection", "highlight"]
                     text: I18n.tr("Focused Border", "launcher focused item border option")
-                    description: I18n.tr("Show a border around the focused item in tile view.", "launcher focused border description")
+                    description: I18n.tr("Show a border around the focused search field and selected tile.", "launcher focused border description")
                     checked: SettingsData.dankLauncherV2FocusedBorderEnabled
                     onToggled: checked => SettingsData.set("dankLauncherV2FocusedBorderEnabled", checked)
                 }
