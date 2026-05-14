@@ -395,6 +395,15 @@ Item {
                     onToggled: checked => SettingsData.set("powerMenuGridLayout", checked)
                 }
 
+                SettingsToggleRow {
+                    settingKey: "powerMenuFocusedBorderEnabled"
+                    tags: ["power", "menu", "focus", "focused", "border", "outline", "selection", "highlight"]
+                    text: I18n.tr("Focused Border", "power menu focused item border option")
+                    description: I18n.tr("Show a border around the focused action in both list and grid mode.", "power menu focused border description")
+                    checked: SettingsData.powerMenuFocusedBorderEnabled
+                    onToggled: checked => SettingsData.set("powerMenuFocusedBorderEnabled", checked)
+                }
+
                 SettingsDropdownRow {
                     id: defaultActionDropdown
                     settingKey: "powerMenuDefaultAction"

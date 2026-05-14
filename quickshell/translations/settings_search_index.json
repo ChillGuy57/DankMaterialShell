@@ -2057,19 +2057,21 @@
       "around",
       "border",
       "drawer",
+      "field",
       "focus",
       "focused",
       "highlight",
-      "item",
       "launcher",
       "menu",
+      "outline",
+      "search",
+      "selected",
       "selection",
       "show",
       "start",
-      "tile",
-      "view"
+      "tile"
     ],
-    "description": "Show a border around the focused item in tile view."
+    "description": "Show a border around the focused search field and selected tile."
   },
   {
     "section": "appLauncherGridColumns",
@@ -6756,6 +6758,34 @@
       "turning"
     ],
     "description": "Gradually fade the screen before turning off monitors with a configurable grace period"
+  },
+  {
+    "section": "powerMenuFocusedBorderEnabled",
+    "label": "Focused Border",
+    "tabIndex": 21,
+    "category": "Power & Sleep",
+    "keywords": [
+      "action",
+      "around",
+      "border",
+      "both",
+      "energy",
+      "focus",
+      "focused",
+      "grid",
+      "highlight",
+      "list",
+      "menu",
+      "mode",
+      "outline",
+      "power",
+      "selection",
+      "show",
+      "shutdown",
+      "sleep",
+      "suspend"
+    ],
+    "description": "Show a border around the focused action in both list and grid mode."
   },
   {
     "section": "powerActionHoldDuration",

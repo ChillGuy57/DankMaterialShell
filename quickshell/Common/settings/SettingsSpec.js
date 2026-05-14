@@ -424,6 +424,7 @@ var SPEC = {
     powerMenuActions: { def: ["reboot", "logout", "poweroff", "lock", "suspend", "restart"] },
     powerMenuDefaultAction: { def: "logout" },
     powerMenuGridLayout: { def: false },
+    powerMenuFocusedBorderEnabled: { def: true },
     customPowerActionLock: { def: "" },
     customPowerActionLogout: { def: "" },
     customPowerActionSuspend: { def: "" },

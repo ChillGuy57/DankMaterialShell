@@ -531,8 +531,8 @@ Rectangle {
                                     return Qt.rgba(Theme.primary.r, Theme.primary.g, Theme.primary.b, 0.08);
                                 return Qt.rgba(Theme.surfaceVariant.r, Theme.surfaceVariant.g, Theme.surfaceVariant.b, 0.08);
                             }
-                            border.color: isSelected ? Theme.primary : "transparent"
-                            border.width: isSelected ? 2 : 0
+                            border.color: (isSelected && SettingsData.powerMenuFocusedBorderEnabled) ? Theme.primary : "transparent"
+                            border.width: (isSelected && SettingsData.powerMenuFocusedBorderEnabled) ? 2 : 0
 
                             Rectangle {
                                 id: gridProgressMask
@@ -664,8 +664,8 @@ Rectangle {
                                     return Qt.rgba(Theme.primary.r, Theme.primary.g, Theme.primary.b, 0.08);
                                 return Qt.rgba(Theme.surfaceVariant.r, Theme.surfaceVariant.g, Theme.surfaceVariant.b, 0.08);
                             }
-                            border.color: isSelected ? Theme.primary : "transparent"
-                            border.width: isSelected ? 2 : 0
+                            border.color: (isSelected && SettingsData.powerMenuFocusedBorderEnabled) ? Theme.primary : "transparent"
+                            border.width: (isSelected && SettingsData.powerMenuFocusedBorderEnabled) ? 2 : 0
 
                             Rectangle {
                                 id: listProgressMask
